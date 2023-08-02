@@ -1,6 +1,7 @@
 """ 
 ZZZZZ = 35*36**4 + 35*36**3 + 35*36**2 + 35*36**1 + 35
 """
+# 직접 10진법 전환
 def base_n(a, b):
     input_list = list(a)
     sum_list = []
@@ -15,11 +16,12 @@ n, base = input().split()
 
 print(base_n(n, int(base))) 
 
-""" def base_n(a, b):
+# int() 함수 활용 10진법 전환
+def base_n(a, b):
     return int(a,b)
 
 n, base = input().split()
 print(base_n(n, int(base)))
- """
+
 
 
