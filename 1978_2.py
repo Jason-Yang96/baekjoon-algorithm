@@ -14,5 +14,4 @@ for i in input_list:
     if prime_judge(i):
         cont += 1
 
-print(cont)
 
