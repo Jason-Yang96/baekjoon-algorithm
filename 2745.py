@@ -16,7 +16,7 @@ n, base = input().split()
 
 print(base_n(n, int(base))) 
 
-# int() 함수 활용 10진법 전환
+# int() 함수 활용 10진법 전환 방법
 def base_n(a, b):
     return int(a,b)
 
