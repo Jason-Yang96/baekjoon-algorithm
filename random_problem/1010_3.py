@@ -1,3 +1,4 @@
+# 내장 함수를 사용한다고 해서 메모리를 덜 쓰거나 시간을 덜 사용하는 것은 아니구나
 import sys
 input = sys.stdin.readline
 
